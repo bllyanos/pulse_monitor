@@ -100,7 +100,6 @@ const App: React.FC = () => {
       logs: []
     };
     setMonitors(prev => [...prev, newMonitor]);
-    // Do NOT change isFormExpanded here per request
   };
 
   const deleteMonitor = (id: string) => {
@@ -132,8 +131,7 @@ const App: React.FC = () => {
             <h1 className="text-3xl font-bold tracking-tighter uppercase">PULSE_MONITOR v1.0</h1>
           </div>
           <p className="text-stone-500 text-sm max-w-md font-medium">
-            Raw Brutalist Dashboard for high-density infrastructure observability. 
-            Real-time latency and status tracking.
+            Real-time health monitoring, latency tracking, and uptime reporting for your web endpoints.
           </p>
         </div>
 

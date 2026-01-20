@@ -1,5 +1,5 @@
 {
   "name": "PulseMonitor",
-  "description": "A Soft Brutalist URL monitoring dashboard that tracks uptime, status codes, and latency with a dense, utility-focused design.",
+  "description": "Real-time URL monitoring dashboard tracking uptime, status codes, and latency with a utility-focused design.",
   "requestFramePermissions": []
 }
